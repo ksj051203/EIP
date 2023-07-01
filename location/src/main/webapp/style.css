@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+ header{
+ 	 position :fixed;
+	 width : 100%;
+	 height : 40px;
+	 line-height :40px;
+	 top :0px;
+	 left :0px;
+	 background-color : blue;
+	 color : white;
+	 font-size :20px;
+	 text-align :center;
+ }
+ 
+ nav{
+ 	 position :fixed;
+	 width : 100%;
+	 height : 30px;
+	 line-height :30px;
+	 top :40px;
+	 left :0px;
+	 background-color : lightblue;
+	 color : white;
+	 text-align :center;
+ }
+ 
+ footer{
+ 	 position :fixed;
+	 width : 100%;
+	 height : 30px;
+	 line-height :30px;
+	 bottom:0px;
+	 left :0px;
+	 background-color : blue;
+	 color : white;
+	 font-size :15px;
+	 text-align :center;
+ }
+ 
+ section{
+ 	position :fixed;
+ 	width : 100%;
+ 	height : 100%;
+ 	text-align :center;
+ 	top :70px;
+ 	left :0px;
+ 	background-color : lightgray;
+ 	color :black;
+ }
+ 
+ section > table{ 
+ 	margin-left: auto;
+ 	margin-right :auto;
+}
+
+ section > p {
+ 	padding-left :30px;
+ }
+ 
+ section > h2 {
+ 	text-align :center;
+ }
+ 
+ 
+ form{
+ 	display :flex;
+ 	justify-content :center;
+ 	align-items :center;
+ 	text-align :center;
+ }
